@@ -2,335 +2,197 @@
 
 # DEGOGGLE LOADOUT
 
-**a practical list of tools, apps, and guides for using less Google**
+**stuff to help you use less Google without making your life annoying**
 
-[FOSS](https://en.wikipedia.org/wiki/Free_and_open-source_software) · [Privacy](https://www.privacyguides.org/) · [Self-hosting](https://github.com/awesome-selfhosted/awesome-selfhosted)
+[FOSS](https://en.wikipedia.org/wiki/Free_and_open-source_software) · [Privacy](https://www.privacyguides.org/) · [Linux](https://www.linux.org/)
 
 </div>
 
 ---
 
-## What is this?
+## so what is this?
 
-DeGoogle Loadout is a growing collection of alternatives to Google services, privacy-friendly tools, browser extensions, Android options, and guides for taking more control over your data.
+I made this because finding decent alternatives to Google shouldn't mean digging through 40 different websites and hoping the app is still maintained.
 
-This is not about pretending that one setup works for everyone. Some people want to leave Google completely. Others only want to replace Chrome, Search, Photos, or Drive. Both are valid starting points.
+This is a collection of FOSS apps, privacy-friendly services, browser extensions, Android options, and other useful stuff for slowly moving away from Google.
 
-**Use what fits your needs. Keep what you need. Replace what you can.**
+You don't have to replace everything at once. Start with one thing, see if it works for you, and go from there.
 
-> Privacy, security, and anonymity are different things. Read what a tool actually protects instead of assuming that every privacy label means the same thing.
+**use what you want. keep what you need. replace what you can.**
 
-## Contents
+> quick note: privacy, security, and anonymity aren't the same thing. Check what a tool actually does instead of trusting a random privacy label.
 
-- [Quick-start loadouts](#quick-start-loadouts)
+## contents
+
+- [quick start](#quick-start)
 - [Google replacements](#google-replacements)
-- [Browsers](#browsers)
-- [Browser extensions](#browser-extensions)
-- [Search engines](#search-engines)
-- [Email and calendars](#email-and-calendars)
-- [Cloud storage and syncing](#cloud-storage-and-syncing)
-- [Photos](#photos)
-- [Maps and navigation](#maps-and-navigation)
-- [YouTube alternatives](#youtube-alternatives)
+- [browsers](#browsers)
+- [extensions](#extensions)
 - [Android](#android)
-- [App stores](#app-stores)
-- [Password managers and 2FA](#password-managers-and-2fa)
-- [Messaging](#messaging)
-- [Office and notes](#office-and-notes)
-- [Linux and desktop tools](#linux-and-desktop-tools)
-- [Self-hosting](#self-hosting)
-- [Migration checklist](#migration-checklist)
-- [Useful directories](#useful-directories)
-- [Contributing](#contributing)
+- [passwords and 2FA](#passwords-and-2fa)
+- [messaging](#messaging)
+- [cloud and backups](#cloud-and-backups)
+- [office and notes](#office-and-notes)
+- [Linux and desktop](#linux-and-desktop)
+- [self-hosting](#self-hosting)
+- [migration checklist](#migration-checklist)
 
 ---
 
-## Quick-start loadouts
+## quick start
 
-### Minimal change
-
-For people who want to start without rebuilding their entire setup:
+If you don't feel like changing your whole setup overnight:
 
 - Browser: [Firefox](https://www.mozilla.org/firefox/) or [Brave](https://brave.com/)
-- Content blocking: [uBlock Origin](https://github.com/gorhill/uBlock)
-- Search: [DuckDuckGo](https://duckduckgo.com/), [Brave Search](https://search.brave.com/), or [Startpage](https://www.startpage.com/)
+- Ad/tracker blocking: [uBlock Origin](https://github.com/gorhill/uBlock)
+- Search: [DuckDuckGo](https://duckduckgo.com/), [Brave Search](https://search.brave.com/), or [SearXNG](https://docs.searxng.org/)
 - Passwords: [Bitwarden](https://bitwarden.com/) or [KeePassXC](https://keepassxc.org/)
 - 2FA: [Aegis](https://github.com/beemdevelopment/Aegis)
+- Notes: [Joplin](https://joplinapp.org/) or [Obsidian](https://obsidian.md/)
 
-### Mostly FOSS
-
-- Browser: [Firefox](https://www.mozilla.org/firefox/), [LibreWolf](https://librewolf.net/), or [Mullvad Browser](https://mullvad.net/browser)
-- Search: [SearXNG](https://docs.searxng.org/) or [Brave Search](https://search.brave.com/)
-- Email: [Tuta](https://tuta.com/) or [Proton Mail](https://proton.me/mail)
-- Cloud: [Nextcloud](https://nextcloud.com/), [Syncthing](https://syncthing.net/), or [Seafile](https://www.seafile.com/)
-- Photos: [Immich](https://immich.app/) or [Ente](https://ente.io/)
-- Office: [LibreOffice](https://www.libreoffice.org/), [ONLYOFFICE](https://www.onlyoffice.com/), or [CryptPad](https://cryptpad.org/)
-
-### De-Googled Android direction
-
-- OS: [GrapheneOS](https://grapheneos.org/) on supported Pixel devices
-- App source: [F-Droid](https://f-droid.org/), [Accrescent](https://accrescent.app/), or [Obtainium](https://github.com/ImranR98/Obtainium)
-- Local apps: [Fossify](https://fossify.org/)
-- Keyboard: [HeliBoard](https://github.com/Helium314/HeliBoard)
-- 2FA: [Aegis](https://github.com/beemdevelopment/Aegis)
-
----
+You can literally just replace one service and stop there. No need to make it a whole project unless you want to.
 
 ## Google replacements
 
-| Google service | Alternatives | Notes |
-|---|---|---|
-| Chrome | Firefox, LibreWolf, Mullvad Browser, Brave | Browser choices have different privacy and compatibility tradeoffs |
-| Search | SearXNG, Brave Search, DuckDuckGo, Startpage, Mojeek | Search indexes and privacy policies differ |
-| Gmail | Tuta, Proton Mail, Mailbox.org | Check recovery, calendar, and alias needs before switching |
-| Drive | Nextcloud, Seafile, Syncthing, Proton Drive | Decide whether you need collaboration, backup, or syncing |
-| Docs / Sheets / Slides | LibreOffice, ONLYOFFICE, CryptPad, Collabora | Local editing and browser collaboration are different workflows |
-| Photos | Immich, Ente, PhotoPrism, Nextcloud Memories | Confirm backup, mobile sync, and sharing features |
-| Maps | Organic Maps, OsmAnd, HERE WeGo, OpenStreetMap | Offline maps may not include live traffic or transit |
-| YouTube | Invidious, Piped, NewPipe, LibreTube, PeerTube | Availability and reliability vary by instance or client |
-| Google Calendar | Nextcloud Calendar, Proton Calendar, Tuta Calendar | CalDAV support can matter for syncing |
-| Google Keep | Joplin, Standard Notes, Obsidian, Notesnook | Check sync model and whether the app is fully open source |
-| Google Photos editor | GIMP, Krita, darktable, RawTherapee | Desktop tools offer more control but may take longer to learn |
-| Google Translate | LibreTranslate, Lingva Translate, Argos Translate | Machine translation quality varies by language |
-| Google Analytics | Matomo, Plausible, Umami, GoatCounter | Choose based on hosting and analytics requirements |
-| Google Fonts | Self-hosted fonts, Fontsource | Download and serve only the fonts you actually use |
-| Google Authenticator | Aegis, 2FAS, ente Auth, KeePassXC | Export and back up your 2FA secrets safely |
+| Google thing | alternatives |
+|---|---|
+| Chrome | [Firefox](https://www.mozilla.org/firefox/), [LibreWolf](https://librewolf.net/), [Mullvad Browser](https://mullvad.net/browser) |
+| Search | [SearXNG](https://docs.searxng.org/), [Brave Search](https://search.brave.com/), [Mojeek](https://www.mojeek.com/) |
+| Gmail | [Tuta](https://tuta.com/), [Proton Mail](https://proton.me/mail), [Posteo](https://posteo.de/en) |
+| Drive | [Nextcloud](https://nextcloud.com/), [Seafile](https://www.seafile.com/), [Proton Drive](https://proton.me/drive) |
+| Docs | [LibreOffice](https://www.libreoffice.org/), [ONLYOFFICE](https://www.onlyoffice.com/), [CryptPad](https://cryptpad.org/) |
+| Photos | [Immich](https://immich.app/), [Ente](https://ente.io/), [PhotoPrism](https://www.photoprism.app/) |
+| Maps | [Organic Maps](https://organicmaps.app/), [OsmAnd](https://osmand.net/), [OpenStreetMap](https://www.openstreetmap.org/) |
+| YouTube | [NewPipe](https://github.com/TeamNewPipe/NewPipe), [FreeTube](https://github.com/FreeTubeApp/FreeTube), [PeerTube](https://joinpeertube.org/) |
+| Calendar | [Nextcloud Calendar](https://nextcloud.com/calendar/), [Proton Calendar](https://proton.me/calendar) |
+| Keep | [Joplin](https://joplinapp.org/), [Standard Notes](https://standardnotes.com/), [Logseq](https://logseq.com/) |
+| Authenticator | [Aegis](https://github.com/beemdevelopment/Aegis), [2FAS](https://2fas.com/), [ente Auth](https://ente.io/auth/) |
 
----
+## browsers
 
-## Browsers
+- [Firefox](https://www.mozilla.org/firefox/) — customizable and not Chromium-based.
+- [LibreWolf](https://librewolf.net/) — Firefox with privacy-focused defaults.
+- [Mullvad Browser](https://mullvad.net/browser) — focused on reducing fingerprinting.
+- [Tor Browser](https://www.torproject.org/) — routes traffic through Tor.
+- [Brave](https://brave.com/) — Chromium-based with built-in blocking.
+- [ungoogled-chromium](https://github.com/ungoogled-software/ungoogled-chromium) — Chromium with Google integrations removed or reduced.
 
-### Desktop
+## extensions
 
-- [Firefox](https://www.mozilla.org/firefox/) — independent browser engine with extensive customization.
-- [LibreWolf](https://librewolf.net/) — Firefox-based browser with privacy-focused defaults.
-- [Mullvad Browser](https://mullvad.net/browser) — anti-fingerprinting-focused browser developed with the Tor Project.
-- [Tor Browser](https://www.torproject.org/) — designed to route browsing through Tor and reduce linkability.
-- [Brave](https://brave.com/) — Chromium-based browser with built-in blocking features.
-- [ungoogled-chromium](https://github.com/ungoogled-software/ungoogled-chromium) — Chromium with Google web-service dependencies removed or reduced.
-
-### Mobile
-
-- [Firefox for Android](https://www.mozilla.org/firefox/browsers/mobile/android/)
-- [Mull](https://f-droid.org/packages/us.spotco.fennec_dos/)
-- [Cromite](https://github.com/uazo/cromite)
-- [IronFox](https://github.com/ironfox-oss/IronFox)
-- [Tor Browser for Android](https://www.torproject.org/download/#android)
-
-No browser is automatically private just because it is a fork. Review defaults, update practices, extensions, and the browser's threat model.
-
-## Browser extensions
-
-Start small. Installing dozens of extensions can increase complexity and may make your browser easier to identify.
-
-- [uBlock Origin](https://github.com/gorhill/uBlock) — content and tracker blocking.
-- [Privacy Badger](https://privacybadger.org/) — learns to block invisible trackers.
-- [ClearURLs](https://github.com/ClearURLs/Addon) — removes known tracking parameters from URLs.
-- [Decentraleyes](https://decentraleyes.org/) — local delivery of selected web libraries.
-- [Cookie AutoDelete](https://github.com/Cookie-AutoDelete/Cookie-AutoDelete) — removes cookies from closed tabs or containers.
-- [LocalCDN](https://codeberg.org/nobody/LocalCDN) — local replacement for supported CDN resources.
-- [Skip Redirect](https://github.com/sblask-webextensions/webextension-skip-redirect) — skips some redirect tracking links.
-- [SponsorBlock](https://sponsor.ajay.app/) — skips crowdsourced sponsored segments in videos.
-- [Return YouTube Dislike](https://returnyoutubedislike.com/) — restores estimated dislike information.
-- [LibRedirect](https://github.com/libredirect/libredirect) — redirects supported sites to alternative frontends.
+- [uBlock Origin](https://github.com/gorhill/uBlock) — ads and tracker blocking.
+- [ClearURLs](https://github.com/ClearURLs/Addon) — removes tracking parameters.
+- [LibRedirect](https://github.com/libredirect/libredirect) — redirects supported websites to alternative frontends.
+- [SponsorBlock](https://sponsor.ajay.app/) — skips sponsored segments in videos.
+- [Return YouTube Dislike](https://returnyoutubedislike.com/) — brings back estimated dislikes.
 - [Dark Reader](https://darkreader.org/) — dark mode for websites.
-- [Bitwarden](https://bitwarden.com/) — password manager browser extension.
+- [Bitwarden](https://bitwarden.com/) — password manager extension.
 
-## Search engines
-
-- [SearXNG](https://docs.searxng.org/) — metasearch engine that can be self-hosted.
-- [Brave Search](https://search.brave.com/) — search engine with an independent index.
-- [DuckDuckGo](https://duckduckgo.com/) — privacy-oriented search engine.
-- [Startpage](https://www.startpage.com/) — privacy proxy for search results.
-- [Mojeek](https://www.mojeek.com/) — independent crawler and index.
-- [Kagi](https://kagi.com/) — paid search engine with customization and no traditional ad model.
-- [Marginalia Search](https://search.marginalia.nu/) — independent search engine focused on non-commercial web content.
-
-## Email and calendars
-
-- [Tuta](https://tuta.com/) — encrypted email and calendar services.
-- [Proton Mail](https://proton.me/mail) — encrypted email with paid and free plans.
-- [Mailbox.org](https://mailbox.org/) — privacy-oriented email and productivity services.
-- [Posteo](https://posteo.de/en) — privacy-focused email provider.
-- [Nextcloud Calendar](https://nextcloud.com/calendar/) — self-hostable calendar.
-- [Radicale](https://radicale.org/) — lightweight CalDAV and CardDAV server.
-
-Before changing email providers, update account recovery addresses, export important messages, and keep access to your old address long enough to catch forgotten accounts.
-
-## Cloud storage and syncing
-
-- [Nextcloud](https://nextcloud.com/) — broad self-hosted file and collaboration platform.
-- [Seafile](https://www.seafile.com/) — file syncing and sharing platform.
-- [Syncthing](https://syncthing.net/) — peer-to-peer file synchronization without a central cloud.
-- [Proton Drive](https://proton.me/drive) — end-to-end encrypted cloud storage.
-- [Cryptomator](https://cryptomator.org/) — encrypts files before they are stored in a cloud folder.
-- [Kopia](https://kopia.io/) — encrypted, compressed, deduplicated backups.
-- [Restic](https://restic.net/) — fast, secure, efficient backup program.
-
-Sync is not the same as backup. Keep at least one independent backup copy when the data matters.
-
-## Photos
-
-- [Immich](https://immich.app/) — self-hosted photo and video management.
-- [Ente Photos](https://ente.io/photos/) — end-to-end encrypted photo storage.
-- [PhotoPrism](https://www.photoprism.app/) — self-hosted photo organization.
-- [Nextcloud Memories](https://github.com/pulsejet/memories) — photo timeline for Nextcloud.
-- [Fossify Gallery](https://fossify.org/) — local Android gallery app.
-
-## Maps and navigation
-
-- [Organic Maps](https://organicmaps.app/) — offline maps based on OpenStreetMap.
-- [OsmAnd](https://osmand.net/) — feature-rich OpenStreetMap navigation.
-- [OpenStreetMap](https://www.openstreetmap.org/) — community-maintained map data.
-- [CoMaps](https://comaps.app/) — privacy-focused offline mapping project.
-- [GraphHopper](https://www.graphhopper.com/) — routing engine with open-source components.
-
-## YouTube alternatives
-
-- [NewPipe](https://github.com/TeamNewPipe/NewPipe) — lightweight Android client.
-- [LibreTube](https://github.com/libre-tube/LibreTube) — Android frontend using Piped.
-- [Invidious](https://github.com/iv-org/invidious) — alternative YouTube frontend.
-- [Piped](https://github.com/TeamPiped/Piped) — privacy-friendly YouTube frontend.
-- [FreeTube](https://github.com/FreeTubeApp/FreeTube) — desktop YouTube client.
-- [PeerTube](https://joinpeertube.org/) — decentralized video platform.
-
-Third-party frontends can break when upstream services change. Keep a backup way to access content you rely on.
+Don't install every extension you see. More extensions can mean more maintenance and a more unique browser fingerprint.
 
 ## Android
 
-### Operating systems
+### operating systems
 
-- [GrapheneOS](https://grapheneos.org/) — hardened Android distribution for supported Pixel devices.
-- [CalyxOS](https://calyxos.org/) — privacy-focused Android distribution with optional microG components.
-- [LineageOS](https://lineageos.org/) — community Android distribution with broad device support.
-- [/e/OS](https://e.foundation/e-os/) — de-Googled Android-based operating system.
-- [postmarketOS](https://postmarketos.org/) — Linux distribution for mobile devices with varying hardware support.
-- [Ubuntu Touch](https://ubports.com/) — mobile Linux-based platform.
+- [GrapheneOS](https://grapheneos.org/) — hardened Android for supported Pixel devices.
+- [CalyxOS](https://calyxos.org/) — privacy-focused Android with optional microG.
+- [LineageOS](https://lineageos.org/) — community Android distribution.
+- [/e/OS](https://e.foundation/e-os/) — Android-based de-Googled OS.
+- [postmarketOS](https://postmarketos.org/) — Linux for supported mobile devices.
 
-Check exact device support, bootloader restrictions, banking app compatibility, update policy, and backup options before installing another OS.
+### apps and stores
 
-### App stores and installation
-
-- [F-Droid](https://f-droid.org/) — catalog of free and open-source Android apps.
-- [Accrescent](https://accrescent.app/) — app store focused on verified and secure distribution.
-- [Obtainium](https://github.com/ImranR98/Obtainium) — obtains app updates from developer releases and repositories.
-- [Aurora Store](https://gitlab.com/AuroraStore/AuroraStore) — alternative client for Google Play.
-- [Droid-ify](https://github.com/Droid-ify/client) — modern F-Droid client.
-
-### Useful Android apps
-
-- [Fossify](https://fossify.org/) — local-first replacements for common phone apps.
-- [HeliBoard](https://github.com/Helium314/HeliBoard) — open-source Android keyboard.
-- [Aegis](https://github.com/beemdevelopment/Aegis) — encrypted 2FA manager.
+- [F-Droid](https://f-droid.org/) — FOSS Android apps.
+- [Accrescent](https://accrescent.app/) — app store focused on secure distribution.
+- [Obtainium](https://github.com/ImranR98/Obtainium) — gets updates from developer sources.
+- [Aurora Store](https://gitlab.com/AuroraStore/AuroraStore) — alternative Google Play client.
+- [Fossify](https://fossify.org/) — local-first everyday apps.
+- [HeliBoard](https://github.com/Helium314/HeliBoard) — open-source keyboard.
 - [K-9 Mail](https://github.com/thundernest/k-9) — open-source email client.
-- [FairEmail](https://email.faircode.eu/) — privacy-oriented email client.
-- [SimpleX Chat](https://simplex.chat/) — messaging without user IDs based on phone numbers.
 - [Organic Maps](https://organicmaps.app/) — offline maps.
 
-## Password managers and 2FA
+Check device support and backup options before switching operating systems. A custom ROM isn't automatically the right choice for every phone.
 
-- [Bitwarden](https://bitwarden.com/) — cross-platform password manager with an open-source codebase.
-- [KeePassXC](https://keepassxc.org/) — local password manager for desktop.
-- [KeePassDX](https://www.keepassdx.com/) — Android KeePass client.
-- [Proton Pass](https://proton.me/pass) — password manager with encrypted storage.
-- [Aegis](https://github.com/beemdevelopment/Aegis) — Android authenticator.
-- [ente Auth](https://ente.io/auth/) — cross-platform authenticator.
-- [2FAS](https://2fas.com/) — authenticator with mobile and browser workflows.
+## passwords and 2FA
 
-Back up your password vault and 2FA recovery codes. A privacy-focused tool is not useful if you permanently lose access to your accounts.
+- [Bitwarden](https://bitwarden.com/)
+- [KeePassXC](https://keepassxc.org/)
+- [KeePassDX](https://www.keepassdx.com/)
+- [Aegis](https://github.com/beemdevelopment/Aegis)
+- [ente Auth](https://ente.io/auth/)
+- [2FAS](https://2fas.com/)
 
-## Messaging
+Back up your vault and recovery codes somewhere safe. Getting locked out of your own accounts would be kinda bad.
 
-- [Signal](https://signal.org/) — end-to-end encrypted messaging with a phone-number-based registration model.
-- [SimpleX Chat](https://simplex.chat/) — messaging designed without permanent user IDs.
-- [Matrix](https://matrix.org/) — decentralized communication protocol.
-- [Element](https://element.io/) — Matrix client.
-- [Session](https://getsession.org/) — decentralized messaging network.
-- [Jami](https://jami.net/) — peer-to-peer communication platform.
+## messaging
 
-## Office and notes
+- [Signal](https://signal.org/)
+- [SimpleX Chat](https://simplex.chat/)
+- [Matrix](https://matrix.org/) / [Element](https://element.io/)
+- [Session](https://getsession.org/)
+- [Jami](https://jami.net/)
 
-- [LibreOffice](https://www.libreoffice.org/) — free office suite for local documents.
-- [ONLYOFFICE](https://www.onlyoffice.com/) — office suite with desktop and self-hosted options.
-- [CryptPad](https://cryptpad.org/) — privacy-focused collaborative office suite.
-- [Collabora Online](https://www.collaboraonline.com/) — browser-based office suite.
-- [Joplin](https://joplinapp.org/) — open-source notes and to-do application.
-- [Standard Notes](https://standardnotes.com/) — encrypted notes platform.
-- [Obsidian](https://obsidian.md/) — local Markdown knowledge base; not fully open source.
-- [Logseq](https://logseq.com/) — local-first outliner and knowledge base.
-- [Zotero](https://www.zotero.org/) — research and reference manager.
+## cloud and backups
 
-## Linux and desktop tools
+- [Nextcloud](https://nextcloud.com/)
+- [Syncthing](https://syncthing.net/)
+- [Seafile](https://www.seafile.com/)
+- [Cryptomator](https://cryptomator.org/)
+- [Kopia](https://kopia.io/)
+- [Restic](https://restic.net/)
 
-- [EndeavourOS](https://endeavouros.com/) — Arch-based Linux distribution.
-- [Fedora](https://fedoraproject.org/) — Linux distribution with strong upstream involvement.
-- [Debian](https://www.debian.org/) — community-maintained Linux distribution.
-- [KDE Plasma](https://kde.org/plasma-desktop/) — customizable desktop environment.
-- [Hyprland](https://hyprland.org/) — dynamic Wayland compositor.
-- [VLC](https://www.videolan.org/vlc/) — media player.
-- [mpv](https://mpv.io/) — lightweight media player.
-- [GIMP](https://www.gimp.org/) — image editor.
-- [Krita](https://krita.org/) — digital painting and image editing.
-- [OBS Studio](https://obsproject.com/) — recording and streaming software.
-- [Thunderbird](https://www.thunderbird.net/) — email and calendar client.
+Syncing isn't the same as backing up. Keep another copy of anything you really don't want to lose.
 
-## Self-hosting
+## office and notes
 
-Useful projects for people who want to run services themselves:
+- [LibreOffice](https://www.libreoffice.org/)
+- [ONLYOFFICE](https://www.onlyoffice.com/)
+- [CryptPad](https://cryptpad.org/)
+- [Joplin](https://joplinapp.org/)
+- [Logseq](https://logseq.com/)
+- [Obsidian](https://obsidian.md/) — useful, but not fully open source.
 
-- [Awesome Selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted) — large catalog of self-hosted software.
-- [Docker](https://www.docker.com/) — container platform.
-- [Podman](https://podman.io/) — daemonless container engine.
-- [Caddy](https://caddyserver.com/) — web server with automatic HTTPS.
-- [Nginx](https://nginx.org/) — web server and reverse proxy.
-- [Authentik](https://goauthentik.io/) — identity provider and access management.
-- [Vaultwarden](https://github.com/dani-garcia/vaultwarden) — unofficial Bitwarden-compatible server.
-- [AdGuard Home](https://adguard.com/en/adguard-home/overview.html) — network-wide DNS filtering.
-- [Pi-hole](https://pi-hole.net/) — DNS sinkhole for blocking unwanted domains.
+## Linux and desktop
 
-Self-hosting moves responsibility to you. Updates, backups, exposed ports, passwords, and monitoring still matter.
+- [Fedora](https://fedoraproject.org/)
+- [Arch Linux](https://archlinux.org/)
+- [Debian](https://www.debian.org/)
+- [KDE Plasma](https://kde.org/plasma-desktop/)
+- [Hyprland](https://hyprland.org/)
+- [VLC](https://www.videolan.org/vlc/)
+- [GIMP](https://www.gimp.org/)
+- [Krita](https://krita.org/)
+- [OBS Studio](https://obsproject.com/)
 
-## Migration checklist
+## self-hosting
 
-- [ ] Make a list of Google services you actually use.
-- [ ] Identify which accounts depend on your Gmail address.
-- [ ] Export important data before deleting anything.
-- [ ] Set up a password manager.
-- [ ] Save 2FA recovery codes in a secure location.
-- [ ] Choose a replacement email address.
-- [ ] Move important files to a local or independent storage location.
-- [ ] Install a browser and content blocker.
-- [ ] Change your default search engine.
-- [ ] Review Android app permissions and background access.
-- [ ] Disable unnecessary location history, ad personalization, and activity tracking.
-- [ ] Test your replacements before closing old accounts.
-- [ ] Keep an emergency recovery plan.
+If you want more control and don't mind managing a server:
 
-## Useful directories
+- [Awesome Selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted)
+- [Nextcloud](https://nextcloud.com/)
+- [Immich](https://immich.app/)
+- [Vaultwarden](https://github.com/dani-garcia/vaultwarden)
+- [Jellyfin](https://jellyfin.org/)
+- [FreshRSS](https://freshrss.org/)
 
-- [Privacy Guides](https://www.privacyguides.org/) — privacy and security recommendations.
-- [Awesome Privacy](https://github.com/pluja/awesome-privacy) — curated privacy-respecting software list.
-- [Awesome Selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted) — self-hosted software directory.
-- [F-Droid](https://f-droid.org/) — free and open-source Android app catalog.
-- [AlternativeTo](https://alternativeto.net/) — software alternative discovery.
-- [DeGoogle Directory](https://mighil.com/degoogle/) — Google replacement directory.
+Self-hosting is cool, but it also means you're responsible for updates, backups, and keeping things working. Don't host something important without understanding that part.
 
-## Contributing
+## migration checklist
 
-Found a useful project, a dead link, or an outdated recommendation?
+- [ ] Pick one Google service to replace first.
+- [ ] Export your important data before switching.
+- [ ] Set up the replacement and test it.
+- [ ] Update recovery emails and account details.
+- [ ] Tell people if your email or contact method changes.
+- [ ] Keep your old account around until you're sure nothing depends on it.
+- [ ] Back up your new setup.
+- [ ] Remove the old service when you're ready.
 
-1. Check that the project is still maintained or clearly mark it as inactive.
-2. Prefer official project links over download mirrors.
-3. Explain what the tool replaces and any important limitations.
-4. Avoid calling something completely private or secure without evidence.
-5. Open a pull request with a short explanation of the change.
+## contributing
 
-This list aims to be useful, not perfect. Recommendations can change as projects, policies, and maintenance status change.
+Found something missing, outdated, or just plain wrong? Open an issue or pull request.
+
+Please include the official project link and keep recommendations reasonably maintained. This list is meant to be useful, not a giant dump of random apps.
 
 ---
 
-<div align="center">
-
 **use less of what you don't need. keep control of what matters.**
-
-</div>
