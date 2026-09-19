@@ -1,789 +1,392 @@
 # DEGOOGLE LOADOUT — ALTERNATIVES INDEX
 
-A huge, categorized list of alternatives. Nothing here is a command to replace everything at once. Pick what actually fits your setup.
+A categorized list of alternatives to Google services and other commonly used platforms.
+
+Links are aimed at official project pages, official stores, or established project repositories. This list is not a requirement to replace everything at once—pick what fits your setup.
+
+## Contents
+
+- [Search engines](#search-engines)
+- [Browsers](#browsers)
+- [Privacy extensions](#privacy-extensions)
+- [Email](#email)
+- [Calendars and contacts](#calendars-and-contacts)
+- [Cloud storage and sync](#cloud-storage-and-sync)
+- [Photos](#photos)
+- [Maps and navigation](#maps-and-navigation)
+- [Video platforms](#video-platforms)
+- [Music and podcasts](#music-and-podcasts)
+- [Office and documents](#office-and-documents)
+- [Notes and knowledge management](#notes-and-knowledge-management)
+- [Password managers](#password-managers)
+- [Messaging and communities](#messaging-and-communities)
+- [Android](#android)
+- [Linux](#linux)
+- [Media](#media)
+- [Creative tools](#creative-tools)
+- [Video calls](#video-calls)
+- [Analytics and website tools](#analytics-and-website-tools)
+- [DNS, VPN, and networking](#dns-vpn-and-networking)
+- [Self-hosting](#self-hosting)
+- [Directories and discovery](#directories-and-discovery)
 
 ## Search engines
 
-- [Brave Search](https://search.brave.com/) — independent search index
-- [DuckDuckGo](https://duckduckgo.com/) — privacy-oriented search
-- [Startpage](https://www.startpage.com/) — private interface for search results
+- [Brave Search](https://search.brave.com/) — independent search engine
+- [DuckDuckGo](https://duckduckgo.com/) — privacy-focused search
+- [Startpage](https://www.startpage.com/) — private search interface
 - [Kagi](https://kagi.com/) — paid, ad-free search
 - [Mojeek](https://www.mojeek.com/) — independent search index
-- [Qwant](https://www.qwant.com/) — European search engine
+- [Qwant](https://www.qwant.com/) — privacy-oriented search
 - [Ecosia](https://www.ecosia.org/) — search with environmental projects
-- [Marginalia Search](https://search.marginalia.nu/) — smaller and non-commercial web
-- [Wiby](https://wiby.me/) — lightweight web search
-- [Yep](https://yep.com/) — search engine with creator revenue sharing
-- [SearXNG](https://docs.searxng.org/) — self-hostable metasearch
+- [Marginalia Search](https://search.marginalia.nu/) — non-commercial web discovery
+- [Wiby](https://wiby.me/) — lightweight search for the older web
+- [SearXNG](https://docs.searxng.org/) — self-hostable metasearch engine
 - [Whoogle](https://github.com/benbusby/whoogle-search) — self-hostable search frontend
 - [LibreY](https://github.com/Ahwxorg/LibreY) — privacy-friendly search frontend
-- [4get](https://github.com/xyTom/4get) — self-hostable metasearch
-- [SearchX](https://github.com/Seirdy/searchengine) — search engine resources and alternatives
+- [4get](https://github.com/xyTom/4get) — self-hostable metasearch frontend
 
 ## Browsers
 
-- [Firefox](https://www.mozilla.org/firefox/)
-- [LibreWolf](https://librewolf.net/)
-- [Mullvad Browser](https://mullvad.net/browser)
-- [Tor Browser](https://www.torproject.org/download/)
-- [Brave](https://brave.com/)
-- [ungoogled-chromium](https://github.com/ungoogled-software/ungoogled-chromium)
-- [Cromite](https://github.com/uazo/cromite)
-- [Mull](https://gitlab.com/divested-mobile/mull-fenix)
-- [Fennec F-Droid](https://f-droid.org/packages/org.mozilla.fennec_fdroid/)
-- [Floorp](https://floorp.app/)
-- [Zen Browser](https://zen-browser.app/)
-- [Ladybird](https://ladybird.org/)
-- [Epiphany](https://apps.gnome.org/Epiphany/)
-- [Falkon](https://www.falkon.org/)
-- [qutebrowser](https://qutebrowser.org/)
-- [Nyxt](https://nyxt.at/)
-- [Pale Moon](https://www.palemoon.org/)
-- [Waterfox](https://www.waterfox.net/)
-- [Vivaldi](https://vivaldi.com/)
-- [Thorium](https://thorium.rocks/)
-- [Iridium Browser](https://iridiumbrowser.de/)
-- [Otter Browser](https://otter-browser.org/)
-- [Basilisk](https://www.basilisk-browser.org/)
+- [Firefox](https://www.mozilla.org/firefox/) — open browser with strong customization
+- [LibreWolf](https://librewolf.net/) — privacy-focused Firefox fork
+- [Mullvad Browser](https://mullvad.net/browser) — anti-tracking browser
+- [Tor Browser](https://www.torproject.org/download/) — browser for the Tor network
+- [Brave](https://brave.com/) — Chromium-based browser with privacy features
+- [ungoogled-chromium](https://github.com/ungoogled-software/ungoogled-chromium) — Chromium without Google integrations
+- [Cromite](https://github.com/uazo/cromite) — privacy-focused Chromium fork
+- [Floorp](https://floorp.app/) — customizable Firefox-based browser
+- [Zen Browser](https://zen-browser.app/) — Firefox-based browser with a custom workflow
+- [Falkon](https://www.falkon.org/) — lightweight Qt browser
+- [qutebrowser](https://qutebrowser.org/) — keyboard-driven browser
+- [Nyxt](https://nyxt.at/) — keyboard-focused extensible browser
+- [Ladybird](https://ladybird.org/) — independent browser project
+- [GNOME Web](https://apps.gnome.org/Epiphany/) — GNOME desktop browser
+- [Pale Moon](https://www.palemoon.org/) — independent browser
+- [Waterfox](https://www.waterfox.net/) — customizable Firefox-based browser
+- [Vivaldi](https://vivaldi.com/) — highly customizable browser
 
-## Browser extensions and privacy add-ons
+## Privacy extensions
 
-- [uBlock Origin](https://github.com/gorhill/uBlock)
-- [uBlock Origin Lite](https://github.com/gorhill/uBlock)
-- [Privacy Badger](https://privacybadger.org/)
-- [ClearURLs](https://github.com/ClearURLs/Addon)
-- [LibRedirect](https://github.com/libredirect/libredirect)
-- [SponsorBlock](https://sponsor.ajay.app/)
-- [Return YouTube Dislike](https://returnyoutubedislike.com/)
-- [DeArrow](https://dearrow.ajay.app/)
-- [Dark Reader](https://darkreader.org/)
-- [Bitwarden](https://bitwarden.com/)
-- [Decentraleyes](https://decentraleyes.org/)
-- [LocalCDN](https://codeberg.org/nobody/LocalCDN)
-- [Cookie AutoDelete](https://github.com/Cookie-AutoDelete/Cookie-AutoDelete)
-- [Temporary Containers](https://addons.mozilla.org/firefox/addon/temporary-containers/)
-- [Multi-Account Containers](https://addons.mozilla.org/firefox/addon/multi-account-containers/)
-- [Skip Redirect](https://addons.mozilla.org/firefox/addon/skip-redirect/)
-- [NoScript](https://noscript.net/)
-- [CanvasBlocker](https://github.com/ghacksuserjs/CanvasBlocker)
-- [FastForward](https://fastforward.team/)
-- [Consent-O-Matic](https://consentomatic.au.dk/)
-- [I still don't care about cookies](https://github.com/OhMyGuus/I-Still-Dont-Care-About-Cookies)
-- [SponsorBlock Companion](https://github.com/groverhenry/SponsorBlock-Companion)
-- [SingleFile](https://github.com/gildas-lormeau/SingleFile)
-- [Save Page WE](https://addons.mozilla.org/firefox/addon/save-page-we/)
-- [Violentmonkey](https://violentmonkey.github.io/)
-- [Tampermonkey](https://www.tampermonkey.net/)
-- [Stylus](https://github.com/openstyles/stylus)
-- [User-Agent Switcher](https://addons.mozilla.org/firefox/addon/uaswitcher/)
-- [Decentraleyes](https://addons.mozilla.org/firefox/addon/decentraleyes/)
-- [Link Cleaner](https://addons.mozilla.org/firefox/)
+- [uBlock Origin](https://github.com/gorhill/uBlock) — content blocker
+- [uBlock Origin Lite](https://github.com/gorhill/uBlock) — Manifest V3 content blocker
+- [Privacy Badger](https://privacybadger.org/) — tracker blocking
+- [ClearURLs](https://github.com/ClearURLs/Addon) — removes tracking parameters
+- [LibRedirect](https://github.com/libredirect/libredirect) — redirects websites to alternative frontends
+- [SponsorBlock](https://sponsor.ajay.app/) — skips sponsored segments
+- [Return YouTube Dislike](https://returnyoutubedislike.com/) — restores dislike estimates
+- [DeArrow](https://dearrow.ajay.app/) — community titles and thumbnails
+- [Dark Reader](https://darkreader.org/) — dark mode for websites
+- [LocalCDN](https://codeberg.org/nobody/LocalCDN) — local CDN resource replacement
+- [Cookie AutoDelete](https://github.com/Cookie-AutoDelete/Cookie-AutoDelete) — removes unused cookies
+- [Temporary Containers](https://addons.mozilla.org/firefox/addon/temporary-containers/) — isolated browsing containers
+- [Multi-Account Containers](https://addons.mozilla.org/firefox/addon/multi-account-containers/) — separate site identities
+- [NoScript](https://noscript.net/) — script and object permissions
+- [CanvasBlocker](https://github.com/ghacksuserjs/CanvasBlocker) — fingerprinting protection
+- [Consent-O-Matic](https://consentomatic.au.dk/) — automated consent choices
+- [SingleFile](https://github.com/gildas-lormeau/SingleFile) — saves complete webpages
+- [Save Page WE](https://addons.mozilla.org/firefox/addon/save-page-we/) — saves webpages locally
+- [Violentmonkey](https://violentmonkey.github.io/) — userscript manager
+- [Stylus](https://github.com/openstyles/stylus) — custom website styles
 
-## Email providers
+## Email
 
-- [Proton Mail](https://proton.me/mail)
-- [Tuta](https://tuta.com/)
-- [Posteo](https://posteo.de/en)
-- [mailbox.org](https://mailbox.org/)
-- [StartMail](https://www.startmail.com/)
-- [Fastmail](https://www.fastmail.com/)
-- [Mailbox.org](https://mailbox.org/)
-- [Disroot](https://disroot.org/)
-- [Mailfence](https://mailfence.com/)
-- [Runbox](https://runbox.com/)
-- [Migadu](https://www.migadu.com/)
-- [Purelymail](https://purelymail.com/)
-- [Posteo](https://posteo.de/)
-- [Kolab Now](https://kolabnow.com/)
-- [Infomaniak Mail](https://www.infomaniak.com/)
-- [Autistici/Inventati](https://www.autistici.org/)
-- [Riseup](https://riseup.net/)
-- [SimpleLogin](https://simplelogin.io/)
-- [Addy.io](https://addy.io/)
-- [Firefox Relay](https://relay.firefox.com/)
-- [DuckDuckGo Email Protection](https://duckduckgo.com/email/)
-- [addy.io](https://addy.io/)
-- [AnonAddy](https://anonaddy.com/)
+- [Proton Mail](https://proton.me/mail) — privacy-focused email
+- [Tuta](https://tuta.com/) — encrypted email
+- [Posteo](https://posteo.de/en) — privacy-oriented email
+- [mailbox.org](https://mailbox.org/) — email and office services
+- [StartMail](https://www.startmail.com/) — private email
+- [Fastmail](https://www.fastmail.com/) — hosted email
+- [Disroot](https://disroot.org/) — community-run services
+- [Mailfence](https://mailfence.com/) — privacy-focused email
+- [Runbox](https://runbox.com/) — privacy-oriented email hosting
+- [Migadu](https://www.migadu.com/) — email hosting
+- [Purelymail](https://purelymail.com/) — low-cost email hosting
+- [Kolab Now](https://kolabnow.com/) — email and collaboration tools
+- [Infomaniak Mail](https://www.infomaniak.com/) — hosted email
+- [Riseup](https://riseup.net/) — activist-oriented communication services
+- [Autistici/Inventati](https://www.autistici.org/) — privacy-focused services
+- [SimpleLogin](https://simplelogin.io/) — email aliases
+- [Addy.io](https://addy.io/) — email aliasing
+- [Firefox Relay](https://relay.firefox.com/) — email masks
+- [DuckDuckGo Email Protection](https://duckduckgo.com/email/) — email forwarding and tracking removal
 
 ## Calendars and contacts
 
-- [Nextcloud Calendar](https://nextcloud.com/calendar/)
-- [Proton Calendar](https://proton.me/calendar)
-- [Etar](https://github.com/Etar-Group/Etar)
-- [Simple Calendar](https://github.com/SimpleMobileTools/Simple-Calendar)
-- [Fossify Calendar](https://github.com/FossifyOrg/Calendar)
-- [DAVx⁵](https://www.davx5.com/)
-- [Nextcloud Contacts](https://nextcloud.com/contacts/)
-- [Fossify Contacts](https://github.com/FossifyOrg/Contacts)
-- [KDE Itinerary](https://apps.kde.org/itinerary/)
-- [GNOME Calendar](https://apps.gnome.org/Calendar/)
-- [Thunderbird](https://www.thunderbird.net/)
+- [Nextcloud Calendar](https://nextcloud.com/calendar/) — self-hosted calendar
+- [Proton Calendar](https://proton.me/calendar) — privacy-focused calendar
+- [Etar](https://github.com/Etar-Group/Etar) — open-source Android calendar
+- [Fossify Calendar](https://github.com/FossifyOrg/Calendar) — simple Android calendar
+- [DAVx⁵](https://www.davx5.com/) — CalDAV and CardDAV sync
+- [Nextcloud Contacts](https://nextcloud.com/contacts/) — self-hosted contacts
+- [Fossify Contacts](https://github.com/FossifyOrg/Contacts) — simple contacts app
+- [GNOME Calendar](https://apps.gnome.org/Calendar/) — Linux calendar
+- [KDE Itinerary](https://apps.kde.org/itinerary/) — travel organizer
 
-## Cloud storage and file sync
+## Cloud storage and sync
 
-- [Nextcloud](https://nextcloud.com/)
-- [Seafile](https://www.seafile.com/)
-- [Proton Drive](https://proton.me/drive)
-- [Filestash](https://www.filestash.app/)
-- [ownCloud](https://owncloud.com/)
-- [Syncthing](https://syncthing.net/)
-- [Resilio Sync](https://www.resilio.com/sync/)
-- [KDE Connect](https://kdeconnect.kde.org/)
-- [LocalSend](https://localsend.org/)
-- [Warp](https://github.com/warpdotdev/Warp)
-- [PairDrop](https://pairdrop.net/)
-- [Croc](https://github.com/schollz/croc)
-- [Magic Wormhole](https://github.com/magic-wormhole/magic-wormhole)
-- [Syncthing-Fork](https://github.com/researchxxl/syncthing-android)
-- [FolderSync](https://foldersync.io/)
-- [Kopia](https://kopia.io/)
-- [Restic](https://restic.net/)
-- [BorgBackup](https://www.borgbackup.org/)
-- [Borgmatic](https://torsion.org/borgmatic/)
-- [Rclone](https://rclone.org/)
-- [Cryptomator](https://cryptomator.org/)
-- [gocryptfs](https://github.com/rfjakob/gocryptfs)
-- [rclone crypt](https://rclone.org/crypt/)
-- [Duplicati](https://duplicati.com/)
-- [Déjà Dup](https://apps.gnome.org/DejaDup/)
-- [Pika Backup](https://apps.gnome.org/PikaBackup/)
-- [Resticprofile](https://github.com/creativeprojects/resticprofile)
+- [Nextcloud](https://nextcloud.com/) — self-hosted file and collaboration platform
+- [ ownCloud](https://owncloud.com/) — self-hosted file platform
+- [Syncthing](https://syncthing.net/) — peer-to-peer file synchronization
+- [Kopia](https://kopia.io/) — encrypted backups
+- [Restic](https://restic.net/) — fast, encrypted backups
+- [BorgBackup](https://www.borgbackup.org/) — deduplicated backups
+- [Seafile](https://www.seafile.com/) — file sync and sharing
+- [Cryptomator](https://cryptomator.org/) — client-side cloud encryption
+- [Rclone](https://rclone.org/) — command-line cloud storage management
+- [Proton Drive](https://proton.me/drive) — encrypted cloud storage
+- [Tresorit](https://tresorit.com/) — encrypted cloud storage
 
-## Photos and galleries
+## Photos
 
-- [Immich](https://immich.app/)
-- [Ente Photos](https://ente.io/)
-- [PhotoPrism](https://www.photoprism.app/)
-- [LibrePhotos](https://github.com/LibrePhotos/librephotos)
-- [Photonix](https://photonix.org/)
-- [Lychee](https://lycheeorg.github.io/)
-- [Piwigo](https://piwigo.org/)
-- [Photoview](https://github.com/photoview/photoview)
-- [digiKam](https://www.digikam.org/)
-- [Shotwell](https://wiki.gnome.org/Apps/Shotwell)
-- [gThumb](https://gitlab.gnome.org/GNOME/gthumb)
-- [KPhotoAlbum](https://kphotoalbum.org/)
-- [Geeqie](https://www.geeqie.org/)
-- [Fossify Gallery](https://github.com/FossifyOrg/Gallery)
-- [Aves](https://github.com/deckerst/aves)
-- [Gallery](https://github.com/IacobIonut01/Gallery)
-- [Simple Gallery](https://github.com/SimpleMobileTools/Simple-Gallery)
+- [Immich](https://immich.app/) — self-hosted photo and video backup
+- [Ente Photos](https://ente.io/) — end-to-end encrypted photo storage
+- [Photoprism](https://www.photoprism.app/) — self-hosted photo management
+- [LibrePhotos](https://github.com/LibrePhotos/librephotos) — self-hosted photo library
+- [Nextcloud Photos](https://apps.nextcloud.com/apps/photos) — photo management for Nextcloud
+- [Fossify Gallery](https://github.com/FossifyOrg/Gallery) — local Android gallery
 
 ## Maps and navigation
 
-- [OpenStreetMap](https://www.openstreetmap.org/)
-- [Organic Maps](https://organicmaps.app/)
-- [OsmAnd](https://osmand.net/)
-- [CoMaps](https://comaps.app/)
-- [Magic Earth](https://www.magicearth.com/)
-- [HERE WeGo](https://wego.here.com/)
-- [Mapy.com](https://mapy.com/)
-- [BRouter](https://brouter.de/)
-- [GraphHopper](https://www.graphhopper.com/)
-- [Go Map!!](https://github.com/yaakaito/GoMap)
-- [StreetComplete](https://streetcomplete.app/)
-- [Every Door](https://every-door.app/)
-- [OsmAnd~](https://osmand.net/)
-- [Transportr](https://github.com/grote/Transportr)
-- [Transit](https://transitapp.com/)
-- [KDE Marble](https://marble.kde.org/)
-- [Qwant Maps](https://www.qwant.com/maps)
-- [OpenTopoMap](https://opentopomap.org/)
+- [OpenStreetMap](https://www.openstreetmap.org/) — open geographic data
+- [Organic Maps](https://organicmaps.app/) — offline maps
+- [OsmAnd](https://osmand.net/) — maps and navigation
+- [Magic Earth](https://www.magicearth.com/) — navigation and maps
+- [CoMaps](https://comaps.app/) — community-driven offline maps
+- [BRouter](https://brouter.de/) — offline routing engine
+- [uMap](https://umap.openstreetmap.fr/) — custom maps using OpenStreetMap
+- [MapLibre](https://maplibre.org/) — open mapping technology
+- [Transitous](https://transitous.org/) — open public transit routing
 
-## YouTube and video
+## Video platforms
 
-- [PeerTube](https://joinpeertube.org/)
-- [NewPipe](https://github.com/TeamNewPipe/NewPipe)
-- [NewPipe x SponsorBlock](https://github.com/polymorphicshade/NewPipe)
-- [FreeTube](https://github.com/FreeTubeApp/FreeTube)
-- [Invidious](https://github.com/iv-org/invidious)
-- [Piped](https://github.com/TeamPiped/Piped)
-- [LibreTube](https://github.com/libre-tube/LibreTube)
-- [Clipious](https://github.com/lamarios/clipious)
-- [SkyTube](https://github.com/SkyTubeTeam/SkyTube)
-- [Grayjay](https://grayjay.app/)
-- [ViewTube](https://github.com/ViewTube/viewtube)
-- [CloudTube](https://github.com/cloudtube-archive/cloudtube)
-- [Tubular](https://github.com/polymorphicshade/Tubular)
-- [yt-dlp](https://github.com/yt-dlp/yt-dlp)
-- [Parabolic](https://github.com/NickvisionApps/Parabolic)
-- [Tartube](https://github.com/axcore/tartube)
-- [Media Downloader](https://github.com/mhogomchungu/media-downloader)
-- [Seal](https://github.com/JunkFood02/Seal)
-- [YTDLnis](https://github.com/deniscerri/ytdlnis)
+- [PeerTube](https://joinpeertube.org/) — federated video platform
+- [Invidious](https://github.com/iv-org/invidious) — alternative YouTube frontend
+- [Piped](https://github.com/TeamPiped/Piped) — privacy-friendly YouTube frontend
+- [NewPipe](https://newpipe.net/) — lightweight Android media client
+- [FreeTube](https://freetubeapp.io/) — desktop YouTube client
+- [Clipious](https://github.com/lamarios/clipious) — Android Invidious client
+- [Nebula](https://nebula.tv/) — creator-focused video platform
+- [Vimeo](https://vimeo.com/) — video hosting platform
 
 ## Music and podcasts
 
-- [InnerTune](https://github.com/z-huang/InnerTune)
-- [ViMusic](https://github.com/vfsfitvnm/ViMusic)
-- [RiMusic](https://github.com/fast4x/RiMusic)
-- [Harmony Music](https://github.com/anandnet/Harmony-Music)
-- [MusicX](https://github.com/yummyfiles/MusicX)
-- [Spotube](https://github.com/KRTirtho/spotube)
-- [LibreTube](https://github.com/libre-tube/LibreTube)
-- [Funkwhale](https://funkwhale.audio/)
-- [Navidrome](https://www.navidrome.org/)
-- [Jellyfin](https://jellyfin.org/)
-- [Ampache](https://ampache.org/)
-- [Gonic](https://github.com/sentriz/gonic)
-- [Feishin](https://github.com/jeffvli/feishin)
-- [Supersonic](https://github.com/dweymouth/supersonic)
-- [Tauon Music Box](https://tauonmusicbox.rocks/)
-- [Elisa](https://apps.kde.org/elisa/)
-- [Strawberry](https://www.strawberrymusicplayer.org/)
-- [Rhythmbox](https://wiki.gnome.org/Apps/Rhythmbox)
-- [Lollypop](https://wiki.gnome.org/Apps/Lollypop)
-- [Quod Libet](https://quodlibet.readthedocs.io/)
-- [Clementine](https://www.clementine-player.org/)
-- [Audacious](https://audacious-media-player.org/)
-- [VLC](https://www.videolan.org/vlc/)
-- [mpv](https://mpv.io/)
-- [AntennaPod](https://antennapod.org/)
-- [Podcast Addict](https://podcastaddict.com/)
-- [gPodder](https://gpodder.github.io/)
-- [Kasts](https://apps.kde.org/kasts/)
-- [Podverse](https://podverse.fm/)
-- [Podgrab](https://github.com/akhilrex/podgrab)
-- [Audiobookshelf](https://www.audiobookshelf.org/)
-- [Booksonic](https://booksonic.org/)
+- [Bandcamp](https://bandcamp.com/) — music marketplace
+- [SoundCloud](https://soundcloud.com/) — music and audio sharing
+- [Audius](https://audius.co/) — decentralized music platform
+- [Funkwhale](https://funkwhale.audio/) — federated music platform
+- [Navidrome](https://www.navidrome.org/) — self-hosted music server
+- [Jellyfin](https://jellyfin.org/) — self-hosted media server
+- [Strawberry](https://www.strawberrymusicplayer.org/) — desktop music player
+- [Quod Libet](https://quodlibet.readthedocs.io/) — music library player
+- [MusicBrainz](https://musicbrainz.org/) — open music metadata database
+- [ListenBrainz](https://listenbrainz.org/) — open listening history service
+- [AntennaPod](https://antennapod.org/) — open-source podcast app
+- [gPodder](https://gpodder.github.io/) — podcast client
+- [Podcast Addict](https://podcastaddict.com/) — Android podcast app
 
-## Documents and office tools
+## Office and documents
 
-- [LibreOffice](https://www.libreoffice.org/)
-- [ONLYOFFICE](https://www.onlyoffice.com/)
-- [CryptPad](https://cryptpad.org/)
-- [Collabora Online](https://www.collaboraonline.com/)
-- [OpenOffice](https://www.openoffice.org/)
-- [Calligra Suite](https://calligra.org/)
-- [AbiWord](https://www.abisource.com/)
-- [Gnumeric](https://gnumeric.org/)
-- [LaTeX](https://www.latex-project.org/)
-- [Typst](https://typst.app/)
-- [Zotero](https://www.zotero.org/)
-- [Joplin](https://joplinapp.org/)
-- [Standard Notes](https://standardnotes.com/)
-- [HedgeDoc](https://hedgedoc.org/)
-- [Etherpad](https://etherpad.org/)
-- [Excalidraw](https://excalidraw.com/)
-- [Draw.io](https://www.drawio.com/)
-- [Penpot](https://penpot.app/)
-- [Pencil Project](https://pencil.evolus.vn/)
-- [OpenBoard](https://openboard.ch/)
-- [Xournal++](https://xournalpp.github.io/)
-- [Okular](https://okular.kde.org/)
-- [Evince](https://apps.gnome.org/Evince/)
-- [Zathura](https://pwmt.org/projects/zathura/)
-- [Sioyek](https://sioyek.info/)
-- [PDF Arranger](https://github.com/pdfarranger/pdfarranger)
-- [Stirling PDF](https://github.com/Stirling-Tools/Stirling-PDF)
-- [Paperless-ngx](https://docs.paperless-ngx.com/)
+- [LibreOffice](https://www.libreoffice.org/) — office suite
+- [ONLYOFFICE](https://www.onlyoffice.com/) — office editors
+- [Collabora Online](https://www.collaboraonline.com/) — collaborative office suite
+- [CryptPad](https://cryptpad.org/) — privacy-friendly collaborative documents
+- [Etherpad](https://etherpad.org/) — collaborative text editor
+- [LaTeX](https://www.latex-project.org/) — document preparation system
+- [Typst](https://typst.app/) — modern document typesetting
+- [Pandoc](https://pandoc.org/) — document conversion tool
+- [Okular](https://okular.kde.org/) — document and PDF viewer
+- [Zathura](https://pwmt.org/projects/zathura/) — keyboard-driven document viewer
+- [Stirling PDF](https://github.com/Stirling-Tools/Stirling-PDF) — self-hosted PDF tools
 
 ## Notes and knowledge management
 
-- [Joplin](https://joplinapp.org/)
-- [Obsidian](https://obsidian.md/)
-- [Logseq](https://logseq.com/)
-- [Anytype](https://anytype.io/)
-- [AppFlowy](https://appflowy.io/)
-- [AFFiNE](https://affine.pro/)
-- [SiYuan](https://b3log.org/siyuan/en/)
-- [TriliumNext](https://github.com/TriliumNext/Trilium)
-- [CherryTree](https://www.giuspen.com/cherrytree/)
-- [Zim](https://zim-wiki.org/)
-- [TiddlyWiki](https://tiddlywiki.com/)
-- [Dendron](https://www.dendron.so/)
-- [Foam](https://foambubble.github.io/foam/)
-- [MarkText](https://github.com/marktext/marktext)
-- [Typora](https://typora.io/)
-- [Ghostwriter](https://ghostwriter.kde.org/)
-- [Apostrophe](https://gitlab.gnome.org/World/apostrophe)
-- [Notable](https://github.com/notable/notable)
-- [QOwnNotes](https://www.qownnotes.org/)
-- [Notesnook](https://notesnook.com/)
-- [Simplenote](https://simplenote.com/)
-- [Quire alternatives: Vikunja](https://vikunja.io/)
-- [Tasks.org](https://tasks.org/)
-- [Super Productivity](https://super-productivity.com/)
-- [Planify](https://github.com/alainm23/planify)
-- [KOrganizer](https://apps.kde.org/korganizer/)
-- [GNOME To Do](https://apps.gnome.org/Todo/)
+- [Joplin](https://joplinapp.org/) — notes and synchronization
+- [Obsidian](https://obsidian.md/) — local Markdown knowledge base
+- [Logseq](https://logseq.com/) — outliner and knowledge management
+- [Standard Notes](https://standardnotes.com/) — encrypted notes
+- [Notesnook](https://notesnook.com/) — private notes
+- [TriliumNext](https://github.com/TriliumNext/Notes) — hierarchical knowledge base
+- [Zettlr](https://www.zettlr.com/) — Markdown editor
+- [MarkText](https://github.com/marktext/marktext) — Markdown editor
+- [SiYuan](https://b3log.org/siyuan/en/) — block-based knowledge management
+- [Memos](https://www.usememos.com/) — self-hosted note-taking
+- [Excalidraw](https://excalidraw.com/) — collaborative whiteboard
+- [Draw.io](https://www.drawio.com/) — diagrams and flowcharts
 
 ## Password managers
 
-- [Bitwarden](https://bitwarden.com/)
-- [Vaultwarden](https://github.com/dani-garcia/vaultwarden)
-- [KeePassXC](https://keepassxc.org/)
-- [KeePassDX](https://www.keepassdx.com/)
-- [KeePass2Android](https://github.com/PhilippC/keepass2android)
-- [Strongbox](https://strongboxsafe.com/)
-- [1Password](https://1password.com/)
-- [Proton Pass](https://proton.me/pass)
-- [Enpass](https://www.enpass.io/)
-- [Padloc](https://padloc.app/)
-- [Psono](https://psono.com/)
-- [Passbolt](https://www.passbolt.com/)
-- [LessPass](https://lesspass.com/)
-- [gopass](https://www.gopass.pw/)
-- [pass](https://www.passwordstore.org/)
-- [QtPass](https://qtpass.org/)
-- [Buttercup](https://buttercup.pw/)
-- [Password Safe](https://pwsafe.org/)
+- [Bitwarden](https://bitwarden.com/) — open-source password manager
+- [KeePassXC](https://keepassxc.org/) — local password manager
+- [KeePassDX](https://www.keepassdx.com/) — Android KeePass client
+- [Proton Pass](https://proton.me/pass) — password manager
+- [1Password](https://1password.com/) — password manager
+- [pass](https://www.passwordstore.org/) — Unix password store
+- [gopass](https://www.gopass.pw/) — password manager for teams and terminals
+- [Vaultwarden](https://github.com/dani-garcia/vaultwarden) — unofficial Bitwarden-compatible server
 
-## Two-factor authentication
+## Messaging and communities
 
-- [Aegis](https://github.com/beemdevelopment/Aegis)
-- [2FAS](https://2fas.com/)
-- [ente Auth](https://ente.io/auth/)
-- [andOTP](https://github.com/andOTP/andOTP)
-- [FreeOTP](https://freeotp.github.io/)
-- [Tofu](https://github.com/talklittle/tofu)
-- [Authenticator Pro](https://github.com/jamie-mh/AuthenticatorPro)
-- [KeePassXC](https://keepassxc.org/)
-- [KeePassDX](https://www.keepassdx.com/)
-- [Yubico Authenticator](https://www.yubico.com/products/yubico-authenticator/)
-- [Nitrokey](https://www.nitrokey.com/)
-- [SoloKeys](https://solokeys.com/)
-- [WebAuthn](https://www.w3.org/TR/webauthn-3/)
-- [FIDO2](https://fidoalliance.org/fido2/)
+- [Signal](https://signal.org/) — private messaging
+- [Matrix](https://matrix.org/) — decentralized messaging protocol
+- [Element](https://element.io/) — Matrix client
+- [SimpleX Chat](https://simplex.chat/) — private messaging without user IDs
+- [Session](https://getsession.org/) — decentralized private messaging
+- [XMPP](https://xmpp.org/) — open messaging protocol
+- [Conversations](https://conversations.im/) — Android XMPP client
+- [Mastodon](https://joinmastodon.org/) — federated social platform
+- [Lemmy](https://join-lemmy.org/) — federated discussion platform
+- [Kbin](https://kbin.pub/) — federated discussion platform
+- [Discourse](https://www.discourse.org/) — community forum software
+- [Revolt](https://revolt.chat/) — community chat platform
+- [Stoat](https://stoat.chat/) — community chat platform
 
-## Messaging and chat
+## Android
 
-- [Signal](https://signal.org/)
-- [SimpleX Chat](https://simplex.chat/)
-- [Matrix](https://matrix.org/)
-- [Element](https://element.io/)
-- [Session](https://getsession.org/)
-- [Briar](https://briarproject.org/)
-- [Jami](https://jami.net/)
-- [Delta Chat](https://delta.chat/)
-- [Threema](https://threema.ch/)
-- [Wire](https://wire.com/)
-- [XMPP](https://xmpp.org/)
-- [Conversations](https://conversations.im/)
-- [Snikket](https://snikket.org/)
-- [Dino](https://dino.im/)
-- [Gajim](https://gajim.org/)
-- [Pidgin](https://pidgin.im/)
-- [K-9 Mail](https://k9mail.app/)
-- [FluffyChat](https://fluffychat.im/)
-- [SchildiChat](https://schildi.chat/)
-- [Cinny](https://cinny.in/)
-- [Nheko](https://nheko-reborn.github.io/)
-- [Revolt](https://revolt.chat/)
-- [Stoat](https://stoat.chat/)
-- [Zulip](https://zulip.com/)
-- [Mattermost](https://mattermost.com/)
-- [Rocket.Chat](https://www.rocket.chat/)
-- [Nextcloud Talk](https://nextcloud.com/talk/)
+- [F-Droid](https://f-droid.org/) — free and open-source Android apps
+- [IzzyOnDroid](https://apt.izzysoft.de/fdroid/) — additional F-Droid repository
+- [Aurora Store](https://auroraoss.com/) — alternative Google Play client
+- [Obtainium](https://github.com/ImranR98/Obtainium) — app updates from release sources
+- [Droid-ify](https://github.com/Droid-ify/client) — F-Droid client
+- [GrapheneOS](https://grapheneos.org/) — privacy-focused Android OS
+- [LineageOS](https://lineageos.org/) — Android distribution
+- [CalyxOS](https://calyxos.org/) — privacy-focused Android OS
+- [ /e/OS](https://e.foundation/e-os/) — de-Googled Android distribution
+- [DivestOS](https://divestos.org/) — privacy and security-focused Android project
+- [K-9 Mail](https://k9mail.app/) — open-source email app
+- [Fossify](https://www.fossify.org/) — open-source Android utilities
+- [Simple Mobile Tools](https://www.simplemobiletools.com/) — Android utility apps
 
-## Social platforms
+## Linux
 
-- [Mastodon](https://joinmastodon.org/)
-- [Misskey](https://misskey-hub.net/)
-- [Firefish](https://firefish.dev/)
-- [Akkoma](https://akkoma.social/)
-- [Pleroma](https://pleroma.social/)
-- [Pixelfed](https://pixelfed.org/)
-- [Lemmy](https://join-lemmy.org/)
-- [Kbin](https://kbin.pub/)
-- [Mbin](https://joinmbin.org/)
-- [PeerTube](https://joinpeertube.org/)
-- [Friendica](https://friendi.ca/)
-- [Hubzilla](https://hubzilla.org/)
-- [Mobilizon](https://joinmobilizon.org/)
-- [WriteFreely](https://writefreely.org/)
-- [Plume](https://joinplu.me/)
-- [Micro.blog](https://micro.blog/)
-- [Bear Blog](https://bearblog.dev/)
-- [Neocities](https://neocities.org/)
-- [Nostr](https://nostr.com/)
-- [Bluesky](https://bsky.app/)
-- [Diaspora](https://diaspora.github.io/diaspora/)
+- [Arch Linux](https://archlinux.org/) — minimalist rolling-release distribution
+- [EndeavourOS](https://endeavouros.com/) — Arch-based distribution
+- [Fedora](https://fedoraproject.org/) — community Linux distribution
+- [Debian](https://www.debian.org/) — stable Linux distribution
+- [Ubuntu](https://ubuntu.com/) — popular Linux distribution
+- [Linux Mint](https://linuxmint.com/) — desktop-focused distribution
+- [openSUSE](https://www.opensuse.org/) — Linux distribution family
+- [NixOS](https://nixos.org/) — declarative Linux distribution
+- [Void Linux](https://voidlinux.org/) — independent Linux distribution
+- [Alpine Linux](https://alpinelinux.org/) — lightweight Linux distribution
+- [KDE Plasma](https://kde.org/plasma-desktop/) — customizable desktop environment
+- [GNOME](https://www.gnome.org/) — desktop environment
+- [Hyprland](https://hyprland.org/) — dynamic Wayland compositor
+- [Sway](https://swaywm.org/) — i3-compatible Wayland compositor
+- [i3](https://i3wm.org/) — tiling window manager
+- [Waybar](https://github.com/Alexays/Waybar) — Wayland status bar
+- [Kitty](https://sw.kovidgoyal.net/kitty/) — GPU-accelerated terminal
+- [Alacritty](https://alacritty.org/) — GPU-accelerated terminal
 
-## Android operating systems
+## Media
 
-- [GrapheneOS](https://grapheneos.org/)
-- [CalyxOS](https://calyxos.org/)
-- [LineageOS](https://lineageos.org/)
-- [/e/OS](https://e.foundation/e-os/)
-- [DivestOS](https://divestos.org/)
-- [iodéOS](https://iode.tech/)
-- [postmarketOS](https://postmarketos.org/)
-- [Ubuntu Touch](https://ubuntu-touch.io/)
-- [Sailfish OS](https://sailfishos.org/)
-- [Mobian](https://mobian.org/)
-- [Plasma Mobile](https://plasma-mobile.org/)
-- [Replicant](https://replicant.us/)
-- [CopperheadOS](https://copperhead.co/)
-- [LineageOS for microG](https://lineage.microg.org/)
-- [iodéOS](https://iode.tech/)
-
-## Android app stores and installers
-
-- [F-Droid](https://f-droid.org/)
-- [IzzyOnDroid](https://apt.izzysoft.de/fdroid/)
-- [Accrescent](https://accrescent.app/)
-- [Obtainium](https://github.com/ImranR98/Obtainium)
-- [Aurora Store](https://auroraoss.com/)
-- [Neo Store](https://github.com/NeoApplications/Neo-Store)
-- [Droid-ify](https://github.com/Droid-ify/client)
-- [Foxy Droid](https://github.com/kitsunyan/foxy-droid)
-- [Aurora Droid](https://gitlab.com/AuroraOSS/aurora-droid)
-- [APKMirror](https://www.apkmirror.com/)
-- [APKPure](https://apkpure.com/)
-- [GitHub Releases](https://github.com/)
-- [IzzyOnDroid](https://apt.izzysoft.de/fdroid/)
-
-## Android apps
-
-- [Fossify](https://github.com/FossifyOrg)
-- [K-9 Mail](https://k9mail.app/)
-- [FairEmail](https://email.faircode.eu/)
-- [Thunderbird for Android](https://www.thunderbird.net/en-US/mobile/)
-- [Organic Maps](https://organicmaps.app/)
-- [OsmAnd](https://osmand.net/)
-- [CoMaps](https://comaps.app/)
-- [NewPipe](https://github.com/TeamNewPipe/NewPipe)
-- [Seal](https://github.com/JunkFood02/Seal)
-- [VLC](https://www.videolan.org/vlc/)
-- [mpv-android](https://github.com/mpv-android/mpv-android)
-- [AntennaPod](https://antennapod.org/)
-- [Feeder](https://github.com/spacecowboy/Feeder)
-- [Read You](https://github.com/Ashinch/ReadYou)
-- [Librera Reader](https://github.com/foobnix/LibreraReader)
-- [KOReader](https://koreader.rocks/)
-- [Olauncher](https://github.com/tanujnotes/Olauncher)
-- [Kvaesitso](https://github.com/MM2-0/Kvaesitso)
-- [Fossify Launcher](https://github.com/FossifyOrg/Launcher)
-- [KISS Launcher](https://kisslauncher.com/)
-- [OpenBoard](https://github.com/openboard-team/openboard)
-- [HeliBoard](https://github.com/Helium314/HeliBoard)
-- [AnySoftKeyboard](https://anysoftkeyboard.github.io/)
-- [FlorisBoard](https://github.com/florisboard/florisboard)
-- [Aegis](https://github.com/beemdevelopment/Aegis)
-- [Bitwarden](https://bitwarden.com/)
-- [KeePassDX](https://www.keepassdx.com/)
-- [DAVx⁵](https://www.davx5.com/)
-- [SimpleX Chat](https://simplex.chat/)
-- [Signal](https://signal.org/)
-- [KDE Connect](https://kdeconnect.kde.org/)
-- [LocalSend](https://localsend.org/)
-- [Syncthing](https://syncthing.net/)
-- [Termux](https://termux.dev/)
-- [Obtainium](https://github.com/ImranR98/Obtainium)
-- [F-Droid Basic](https://f-droid.org/)
-
-## Linux distributions
-
-- [Arch Linux](https://archlinux.org/)
-- [EndeavourOS](https://endeavouros.com/)
-- [CachyOS](https://cachyos.org/)
-- [Garuda Linux](https://garudalinux.org/)
-- [Manjaro](https://manjaro.org/)
-- [Debian](https://www.debian.org/)
-- [Ubuntu](https://ubuntu.com/)
-- [Linux Mint](https://linuxmint.com/)
-- [Fedora](https://fedoraproject.org/)
-- [Nobara](https://nobaraproject.org/)
-- [openSUSE](https://www.opensuse.org/)
-- [Alpine Linux](https://alpinelinux.org/)
-- [Void Linux](https://voidlinux.org/)
-- [Gentoo](https://www.gentoo.org/)
-- [NixOS](https://nixos.org/)
-- [Guix System](https://guix.gnu.org/)
-- [Slackware](https://www.slackware.com/)
-- [Rocky Linux](https://rockylinux.org/)
-- [AlmaLinux](https://almalinux.org/)
-- [MX Linux](https://mxlinux.org/)
-- [Puppy Linux](https://puppylinux-woof-ce.github.io/)
-- [Tails](https://tails.net/)
-- [Whonix](https://www.whonix.org/)
-- [Qubes OS](https://www.qubes-os.org/)
-- [PureOS](https://pureos.net/)
-- [Kicksecure](https://www.kicksecure.com/)
-
-## Desktop environments and window managers
-
-- [KDE Plasma](https://kde.org/plasma-desktop/)
-- [GNOME](https://www.gnome.org/)
-- [XFCE](https://xfce.org/)
-- [Cinnamon](https:// Cinnamon.org/)
-- [MATE](https://mate-desktop.org/)
-- [LXQt](https://lxqt-project.org/)
-- [Budgie](https://buddiesofbudgie.org/)
-- [COSMIC](https://system76.com/cosmic/)
-- [Hyprland](https://hyprland.org/)
-- [Sway](https://swaywm.org/)
-- [i3](https://i3wm.org/)
-- [bspwm](https://github.com/baskerville/bspwm)
-- [awesomewm](https://awesomewm.org/)
-- [dwm](https://dwm.suckless.org/)
-- [Qtile](https://qtile.org/)
-- [River](https://codeberg.org/river/river)
-- [niri](https://github.com/YaLTeR/niri)
-- [Wayfire](https://wayfire.org/)
-- [Labwc](https://labwc.github.io/)
-- [Openbox](https://openbox.org/)
-- [Fluxbox](https://fluxbox.org/)
-- [IceWM](https://ice-wm.org/)
-- [herbstluftwm](https://herbstluftwm.org/)
-
-## Media players and media servers
-
-- [VLC](https://www.videolan.org/vlc/)
-- [mpv](https://mpv.io/)
-- [MPlayer](https://mplayerhq.hu/)
-- [Celluloid](https://celluloid-player.github.io/)
-- [Haruna](https://haruna.kde.org/)
-- [Clapper](https://github.com/Rafostar/clapper)
-- [SMPlayer](https://www.smplayer.info/)
-- [Kodi](https://kodi.tv/)
-- [Jellyfin](https://jellyfin.org/)
-- [Emby](https://emby.media/)
-- [Plex](https://www.plex.tv/)
-- [Universal Media Server](https://www.universalmediaserver.com/)
-- [Gerbera](https://gerbera.io/)
-- [ReadyMedia](https://sourceforge.net/projects/minidlna/)
-- [Navidrome](https://www.navidrome.org/)
-- [Audiobookshelf](https://www.audiobookshelf.org/)
-- [Kavita](https://www.kavitareader.com/)
-- [Komga](https://komga.org/)
-- [Calibre-Web](https://github.com/janeczku/calibre-web)
-- [Calibre](https://calibre-ebook.com/)
+- [VLC](https://www.videolan.org/vlc/) — media player
+- [mpv](https://mpv.io/) — lightweight media player
+- [Celluloid](https://celluloid-player.github.io/) — GTK frontend for mpv
+- [MPC-HC](https://github.com/clsid2/mpc-hc) — Windows media player
+- [Kodi](https://kodi.tv/) — media center
+- [Jellyfin](https://jellyfin.org/) — self-hosted media server
+- [Emby](https://emby.media/) — media server
+- [HandBrake](https://handbrake.fr/) — video transcoder
+- [FFmpeg](https://ffmpeg.org/) — multimedia framework
+- [ yt-dlp](https://github.com/yt-dlp/yt-dlp) — media downloader
+- [LosslessCut](https://github.com/mifi/lossless-cut) — lossless media cutter
 
 ## Creative tools
 
-- [GIMP](https://www.gimp.org/)
-- [Krita](https://krita.org/)
-- [Inkscape](https://inkscape.org/)
-- [Blender](https://www.blender.org/)
-- [Godot](https://godotengine.org/)
-- [Kdenlive](https://kdenlive.org/)
-- [Shotcut](https://shotcut.org/)
-- [OpenShot](https://www.openshot.org/)
-- [Olive](https://www.olivevideoeditor.org/)
-- [Pitivi](https://www.pitivi.org/)
-- [Ardour](https://ardour.org/)
-- [LMMS](https://lmms.io/)
-- [Audacity](https://www.audacityteam.org/)
-- [Tenacity](https://tenacityaudio.org/)
-- [OBS Studio](https://obsproject.com/)
-- [Kooha](https://github.com/SeaDve/Kooha)
-- [OBSidian Canvas alternatives: Excalidraw](https://excalidraw.com/)
-- [Darktable](https://www.darktable.org/)
-- [RawTherapee](https://rawtherapee.com/)
-- [digiKam](https://www.digikam.org/)
-- [MyPaint](https://mypaint.app/)
-- [Pinta](https://www.pinta-project.com/)
-- [Pixelorama](https://orama-interactive.itch.io/pixelorama)
-- [Aseprite](https://www.aseprite.org/)
-- [Synfig Studio](https://www.synfig.org/)
-- [Pencil2D](https://www.pencil2d.org/)
-- [OpenToonz](https://opentoonz.github.io/e/)
-- [Natron](https://natrongithub.github.io/)
-- [MeshLab](https://www.meshlab.net/)
-- [FreeCAD](https://www.freecad.org/)
-- [OpenSCAD](https://openscad.org/)
-- [KiCad](https://www.kicad.org/)
-- [Scribus](https://www.scribus.net/)
-- [Penpot](https://penpot.app/)
-- [Inkscape](https://inkscape.org/)
+- [GIMP](https://www.gimp.org/) — image editor
+- [Krita](https://krita.org/) — digital painting
+- [Inkscape](https://inkscape.org/) — vector graphics editor
+- [Blender](https://www.blender.org/) — 3D creation suite
+- [Kdenlive](https://kdenlive.org/) — video editor
+- [Shotcut](https://shotcut.org/) — video editor
+- [OpenShot](https://www.openshot.org/) — video editor
+- [Olive](https://www.olivevideoeditor.org/) — video editor
+- [Ardour](https://ardour.org/) — digital audio workstation
+- [LMMS](https://lmms.io/) — music production software
+- [Audacity](https://www.audacityteam.org/) — audio editor
+- [Tenacity](https://tenacityaudio.org/) — audio editor
+- [OBS Studio](https://obsproject.com/) — recording and streaming
+- [Inkscape](https://inkscape.org/) — vector graphics
+- [Scribus](https://www.scribus.net/) — desktop publishing
 
-## Video calls and meetings
+## Video calls
 
-- [Jitsi Meet](https://jitsi.org/)
-- [BigBlueButton](https://bigbluebutton.org/)
-- [Element Call](https://element.io/call)
-- [Nextcloud Talk](https://nextcloud.com/talk/)
-- [Jami](https://jami.net/)
-- [Mumble](https://www.mumble.info/)
-- [Jami](https://jami.net/)
-- [Miro alternatives: Excalidraw](https://excalidraw.com/)
-- [OpenMeetings](https://openmeetings.apache.org/)
-- [Galene](https://galene.org/)
-- [Janus](https://janus.conf.meetecho.com/)
-- [LiveKit](https://livekit.io/)
-- [Whereby](https://whereby.com/)
-- [Around](https://around.co/)
-- [Mumble](https://www.mumble.info/)
-- [TeamSpeak](https://teamspeak.com/)
-- [Ventrilo](https://www.ventrilo.com/)
+- [Jitsi Meet](https://jitsi.org/jitsi-meet/) — open video conferencing
+- [BigBlueButton](https://bigbluebutton.org/) — online classroom platform
+- [Element Call](https://element.io/element-call) — Matrix-based calling
+- [Nextcloud Talk](https://nextcloud.com/talk/) — self-hosted communication
+- [Whereby](https://whereby.com/) — browser-based video meetings
+- [Mumble](https://www.mumble.info/) — low-latency voice chat
+- [Jami](https://jami.net/) — distributed communication platform
 
 ## Analytics and website tools
 
-- [Matomo](https://matomo.org/)
-- [Plausible](https://plausible.io/)
-- [Umami](https://umami.is/)
-- [GoAccess](https://goaccess.io/)
-- [Open Web Analytics](https://www.openwebanalytics.com/)
-- [Ackee](https://ackee.electerious.com/)
-- [Cabin](https://withcabin.com/)
-- [Fathom](https://usefathom.com/)
-- [Simple Analytics](https://simpleanalytics.com/)
-- [Shynet](https://github.com/milesmcc/shynet)
-- [Plausible Community Edition](https://github.com/plausible/analytics)
-- [PostHog](https://posthog.com/)
-- [Countly](https://countly.com/)
-- [OpenReplay](https://openreplay.com/)
-- [Grafana](https://grafana.com/)
-- [Prometheus](https://prometheus.io/)
-- [Netdata](https://www.netdata.cloud/)
-- [Uptime Kuma](https://github.com/louislam/uptime-kuma)
-- [Gatus](https://github.com/TwiN/gatus)
-- [changedetection.io](https://changedetection.io/)
-- [FreshRSS](https://freshrss.org/)
-- [Miniflux](https://miniflux.app/)
-- [Tiny Tiny RSS](https://tt-rss.org/)
-- [NewsBlur](https://www.newsblur.com/)
+- [Matomo](https://matomo.org/) — privacy-focused analytics
+- [Plausible](https://plausible.io/) — lightweight analytics
+- [Umami](https://umami.is/) — self-hostable analytics
+- [GoatCounter](https://www.goatcounter.com/) — simple privacy-friendly analytics
+- [Open Web Analytics](http://www.openwebanalytics.com/) — open analytics software
+- [Hugo](https://gohugo.io/) — static site generator
+- [Astro](https://astro.build/) — content-focused web framework
+- [Jekyll](https://jekyllrb.com/) — static site generator
+- [Eleventy](https://www.11ty.dev/) — static site generator
+- [WordPress](https://wordpress.org/) — publishing platform
+- [Ghost](https://ghost.org/) — publishing platform
+- [Gitea](https://about.gitea.com/) — lightweight Git hosting
+- [Forgejo](https://forgejo.org/) — community-driven Git forge
 
-## VPN, DNS, and network privacy
+## DNS, VPN, and networking
 
-- [Mullvad VPN](https://mullvad.net/)
-- [Proton VPN](https://protonvpn.com/)
-- [IVPN](https://www.ivpn.net/)
-- [Windscribe](https://windscribe.com/)
-- [Mozilla VPN](https://www.mozilla.org/products/vpn/)
-- [RiseupVPN](https://riseup.net/en/vpn)
-- [CalyxVPN](https://calyx.net/)
-- [Tor](https://www.torproject.org/)
-- [I2P](https://geti2p.net/)
-- [WireGuard](https://www.wireguard.com/)
-- [OpenVPN](https://openvpn.net/)
-- [Tailscale](https://tailscale.com/)
-- [Headscale](https://github.com/juanfont/headscale)
-- [NetBird](https://netbird.io/)
-- [ZeroTier](https://www.zerotier.com/)
-- [Nebula](https://github.com/slackhq/nebula)
-- [AdGuard Home](https://adguard.com/en/adguard-home/overview.html)
-- [Pi-hole](https://pi-hole.net/)
-- [NextDNS](https://nextdns.io/)
-- [Control D](https://controld.com/)
-- [Quad9](https://quad9.net/)
-- [Mullvad DNS](https://mullvad.net/en/help/dns-over-https-and-dns-over-tls/)
-- [Cloudflare alternatives: Quad9](https://quad9.net/)
-- [Unbound](https://nlnetlabs.nl/projects/unbound/about/)
-- [Technitium DNS](https://technitium.com/dns/)
-- [Blocky](https://0xerr0r.github.io/blocky/)
-- [dnscrypt-proxy](https://github.com/DNSCrypt/dnscrypt-proxy)
-- [Stubby](https://github.com/getdnsapi/stubby)
-- [RethinkDNS](https://rethinkdns.com/)
-- [TrackerControl](https://trackercontrol.org/)
-- [NetGuard](https://github.com/M66B/NetGuard)
-- [PCAPdroid](https://github.com/emanuele-f/PCAPdroid)
+- [Mullvad VPN](https://mullvad.net/) — privacy-focused VPN
+- [Proton VPN](https://protonvpn.com/) — VPN service
+- [IVPN](https://www.ivpn.net/) — privacy-focused VPN
+- [Windscribe](https://windscribe.com/) — VPN service
+- [NextDNS](https://nextdns.io/) — configurable DNS filtering
+- [AdGuard DNS](https://adguard-dns.io/) — DNS filtering
+- [Quad9](https://quad9.net/) — security-focused DNS resolver
+- [Cloudflare WARP](https://1.1.1.1/) — encrypted DNS and network service
+- [Pi-hole](https://pi-hole.net/) — network-wide ad blocking
+- [AdGuard Home](https://adguard.com/adguard-home/overview.html) — network-wide DNS filtering
+- [Technitium DNS](https://technitium.com/dns/) — self-hosted DNS server
+- [WireGuard](https://www.wireguard.com/) — modern VPN protocol
+- [OpenVPN](https://openvpn.net/) — VPN protocol and software
+- [Tailscale](https://tailscale.com/) — mesh networking
+- [Headscale](https://github.com/juanfont/headscale) — self-hosted Tailscale control server
 
-## Self-hosting and server software
+## Self-hosting
 
-- [Awesome Selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted)
-- [Nextcloud](https://nextcloud.com/)
-- [Vaultwarden](https://github.com/dani-garcia/vaultwarden)
-- [Immich](https://immich.app/)
-- [Jellyfin](https://jellyfin.org/)
-- [Navidrome](https://www.navidrome.org/)
-- [FreshRSS](https://freshrss.org/)
-- [Miniflux](https://miniflux.app/)
-- [Gitea](https://about.gitea.com/)
-- [Forgejo](https://forgejo.org/)
-- [GitLab](https://about.gitlab.com/)
-- [Woodpecker CI](https://woodpecker-ci.org/)
-- [Drone](https://www.drone.io/)
-- [Uptime Kuma](https://github.com/louislam/uptime-kuma)
-- [Portainer](https://www.portainer.io/)
-- [CasaOS](https://casaos.io/)
-- [Umbrel](https://umbrel.com/)
-- [YunoHost](https://yunohost.org/)
-- [Cloudron](https://www.cloudron.io/)
-- [Cosmos](https://cosmos-cloud.io/)
-- [Homarr](https://homarr.dev/)
-- [Homepage](https://gethomepage.dev/)
-- [Dashy](https://dashy.to/)
-- [Heimdall](https://heimdall.site/)
-- [Organizr](https://organizr.app/)
-- [File Browser](https://filebrowser.org/)
-- [SFTPGo](https://sftpgo.com/)
-- [Syncthing](https://syncthing.net/)
-- [Samba](https://www.samba.org/)
-- [NFS](https://nfs.sourceforge.net/)
-- [Caddy](https://caddyserver.com/)
-- [Nginx](https://nginx.org/)
-- [Traefik](https://traefik.io/)
-- [HAProxy](https://www.haproxy.org/)
-- [Cloudflare Tunnel alternatives: Tailscale Funnel](https://tailscale.com/)
-- [OpenWrt](https://openwrt.org/)
-- [OPNsense](https://opnsense.org/)
-- [pfSense](https://www.pfsense.org/)
-- [TrueNAS](https://www.truenas.com/)
-- [OpenMediaVault](https://www.openmediavault.org/)
-- [Proxmox](https://www.proxmox.com/)
-- [Incus](https://linuxcontainers.org/incus/)
-- [Podman](https://podman.io/)
-- [Docker](https://www.docker.com/)
-- [Kubernetes](https://kubernetes.io/)
-- [K3s](https://k3s.io/)
-- [Nomad](https://www.nomadproject.io/)
+- [Docker](https://www.docker.com/) — container platform
+- [Podman](https://podman.io/) — daemonless containers
+- [Portainer](https://www.portainer.io/) — container management UI
+- [CasaOS](https://casaos.io/) — home server interface
+- [YunoHost](https://yunohost.org/) — self-hosting operating system
+- [Umbrel](https://umbrel.com/) — home server platform
+- [Proxmox VE](https://www.proxmox.com/en/proxmox-virtual-environment/overview) — virtualization platform
+- [TrueNAS](https://www.truenas.com/) — storage platform
+- [OpenMediaVault](https://www.openmediavault.org/) — NAS solution
+- [Syncthing](https://syncthing.net/) — peer-to-peer synchronization
+- [Vaultwarden](https://github.com/dani-garcia/vaultwarden) — password manager server
+- [Home Assistant](https://www.home-assistant.io/) — home automation
+- [Paperless-ngx](https://docs.paperless-ngx.com/) — document management
+- [Mealie](https://mealie.io/) — recipe manager
+- [Actual Budget](https://actualbudget.org/) — local-first budgeting
+- [Linkding](https://github.com/sissbruecker/linkding) — bookmark manager
+- [Wallabag](https://wallabag.org/) — read-it-later service
 
-## Open-source directories and discovery
+## Directories and discovery
 
-- [AlternativeTo](https://alternativeto.net/)
-- [F-Droid](https://f-droid.org/)
-- [Awesome Lists](https://github.com/sindresorhus/awesome)
-- [Awesome Selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted)
-- [Privacy Guides](https://www.privacyguides.org/)
-- [PRISM Break](https://prism-break.org/)
-- [Slant](https://www.slant.co/)
-- [OpenAlternative](https://openalternative.co/)
-- [SaaSHub](https://www.saashub.com/)
-- [GitHub](https://github.com/)
-- [Codeberg](https://codeberg.org/)
-- [SourceHut](https://sourcehut.org/)
-- [GitLab](https://gitlab.com/)
-- [Gitea](https://about.gitea.com/)
-- [Forgejo](https://forgejo.org/)
-- [Flathub](https://flathub.org/)
-- [Snapcraft](https://snapcraft.io/)
-- [AppImageHub](https://www.appimagehub.com/)
-- [Repology](https://repology.org/)
-- [Linux App Finder](https://linuxappfinder.com/)
-- [Freshcode](https://freshcode.club/)
-
-## Small useful replacements
-
-- Google Fonts → [Fontsource](https://fontsource.org/), self-hosted fonts
-- Google Analytics → [Matomo](https://matomo.org/), [Plausible](https://plausible.io/), [Umami](https://umami.is/)
-- Google Tag Manager → direct scripts, self-managed analytics
-- Firebase → [Supabase](https://supabase.com/), [Appwrite](https://appwrite.io/), [PocketBase](https://pocketbase.io/)
-- Google reCAPTCHA → [hCaptcha](https://www.hcaptcha.com/), [Friendly Captcha](https://friendlycaptcha.com/), rate limiting
-- Google Translate → [LibreTranslate](https://libretranslate.com/), [Argos Translate](https://github.com/argosopentech/argos-translate)
-- Google Lens → [Kando](https://github.com/kando-menu/kando), local OCR tools, [Tesseract](https://github.com/tesseract-ocr/tesseract)
-- Google Alerts → [Talkwalker Alerts](https://www.talkwalker.com/alerts), RSS feeds, [changedetection.io](https://changedetection.io/)
-- Google Forms → [OhMyForm](https://ohmyform.com/), [LimeSurvey](https://www.limesurvey.org/), [Nextcloud Forms](https://apps.nextcloud.com/apps/forms)
-- Google Sites → [Hugo](https://gohugo.io/), [Jekyll](https://jekyllrb.com/), [Astro](https://astro.build/), [Eleventy](https://www.11ty.dev/)
-- Google Blogger → [Ghost](https://ghost.org/), [WriteFreely](https://writefreely.org/), [WordPress](https://wordpress.org/), [Hugo](https://gohugo.io/)
-- Google Classroom → [Moodle](https://moodle.org/), [Canvas LMS](https://www.instructure.com/canvas), [Open edX](https://openedx.org/)
-- Google Keep → [Joplin](https://joplinapp.org/), [Standard Notes](https://standardnotes.com/), [Obsidian](https://obsidian.md/)
-- Google Tasks → [Vikunja](https://vikunja.io/), [Tasks.org](https://tasks.org/), [Super Productivity](https://super-productivity.com/)
-- Google Hangouts → [Signal](https://signal.org/), [Matrix](https://matrix.org/), [XMPP](https://xmpp.org/)
-- Google Groups → [Discourse](https://www.discourse.org/), [Lemmy](https://join-lemmy.org/), mailing lists
-- Google Voice → [Jami](https://jami.net/), [Linphone](https://www.linphone.org/), SIP providers
-- Google Cloud → [Hetzner](https://www.hetzner.com/), [DigitalOcean](https://www.digitalocean.com/), [Vultr](https://www.vultr.com/), self-hosting
-- Google Colab → [Jupyter](https://jupyter.org/), [Kaggle](https://www.kaggle.com/), local Python environments
-- Google reCAPTCHA → [ALTCHA](https://altcha.org/), [Friendly Captcha](https://friendlycaptcha.com/)
-- Google Optimize → [Matomo](https://matomo.org/), self-hosted A/B testing
-- Google Domains → [Porkbun](https://porkbun.com/), [Namecheap](https://www.namecheap.com/), [Gandi](https://www.gandi.net/)
-- Google Voice typing → [Whisper](https://github.com/openai/whisper), [whisper.cpp](https://github.com/ggerganov/whisper.cpp), [Vosk](https://alphacephei.com/vosk/)
-- Google OCR → [Tesseract](https://github.com/tesseract-ocr/tesseract), [OCRmyPDF](https://ocrmypdf.readthedocs.io/)
-- Google Earth → [NASA Worldview](https://worldview.earthdata.nasa.gov/), [Marble](https://marble.kde.org/), [OpenStreetMap](https://www.openstreetmap.org/)
-- Google News → [Inoreader](https://www.inoreader.com/), [Feedly](https://feedly.com/), [FreshRSS](https://freshrss.org/), [Miniflux](https://miniflux.app/)
-- Google Play Books → [KOReader](https://koreader.rocks/), [Calibre](https://calibre-ebook.com/), [Kavita](https://www.kavitareader.com/)
-- Google Podcasts → [AntennaPod](https://antennapod.org/), [gPodder](https://gpodder.github.io/), [Kasts](https://apps.kde.org/kasts/)
-- Google Arts & Culture → [Wikimedia Commons](https://commons.wikimedia.org/), museum websites, [Internet Archive](https://archive.org/)
-- Google Shopping → [OpenStreetMap local search], retailer websites, price comparison tools
-- Google Flights → [ITA Matrix](https://matrix.itasoftware.com/), airline websites, [Skyscanner](https://www.skyscanner.com/)
-- Google Hotels → direct hotel websites, [OpenStreetMap](https://www.openstreetmap.org/), independent booking sites
-- Google Finance → [Yahoo Finance](https://finance.yahoo.com/), [TradingView](https://www.tradingview.com/), [Koyfin](https://www.koyfin.com/)
-- Google Trends → [Exploding Topics](https://explodingtopics.com/), [Glimpse](https://meetglimpse.com/), public datasets
-- Google URL shortener → [YOURLS](https://yourls.org/), [Shlink](https://shlink.io/), [Kutt](https://kutt.it/)
-- Google reCAPTCHA analytics → server-side rate limits, proof-of-work, [ALTCHA](https://altcha.org/)
+- [AlternativeTo](https://alternativeto.net/) — software alternatives
+- [Privacy Guides](https://www.privacyguides.org/) — privacy recommendations
+- [Awesome Privacy](https://github.com/pluja/awesome-privacy) — privacy resource list
+- [F-Droid](https://f-droid.org/) — free and open-source Android apps
+- [Codeberg](https://codeberg.org/) — community-driven Git hosting
+- [SourceHut](https://sourcehut.org/) — developer platform
+- [GitLab](https://gitlab.com/) — Git hosting and DevOps platform
+- [Open Source Initiative](https://opensource.org/) — open-source information
+- [Free Software Foundation](https://www.fsf.org/) — free software advocacy
+- [Open Source Guides](https://opensource.guide/) — open-source project guidance
 
 ---
 
-This file is intentionally a directory rather than a strict recommendation list. Projects change, links can move, and a service being listed does not mean it is automatically private, secure, free, or maintained forever.
+This index is a starting point, not a guarantee that every service fits every privacy model. Check each project's current policies, maintenance status, and hosting model before relying on it.
