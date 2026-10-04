@@ -1,6 +1,6 @@
 <div align="center">
 
-# DEGOGGLE LOADOUT
+# DEGOOGLE LOADOUT
 
 **stuff to help you use less Google without making your life annoying**
 
